@@ -54,6 +54,6 @@
     "eslint-plugin-react-hooks": "^4.2.0"
   },
   "engines": {
-    "node": "12.22.8"
+    "node": "10"
   }
 }
