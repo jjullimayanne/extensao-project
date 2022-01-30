@@ -1,0 +1,28 @@
+.box-cam {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.webcamCapture {
+  overflow: hidden;
+  display: flex;
+  width: 600px;
+  height: 600px;
+  align-items: center;
+  margin: 0;
+  justify-content: center;
+}
+
+.webcam {
+  width: 27rem;
+  height: 27rem;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 20px solid #0077B6;
+  box-shadow:
+    0 0 0 20px #48CAE4,
+    0 0 10px 40px #CAF0F8;
+  margin: 0;
+}

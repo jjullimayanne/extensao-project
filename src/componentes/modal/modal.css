@@ -1,0 +1,117 @@
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, .5);
+    padding: 15px;
+}
+
+.modal-content {
+    position: absolute;
+    z-index: 2 !important;
+    background-color: #faf6f3 ;
+    border-radius: 1rem;
+    width: 40rem;
+    height: 760px;
+    margin-left: 18%;
+    margin-top: 24%;
+    margin-bottom: 15px;
+    display: flex;
+    height: 760px;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+    z-index: 2 !important;
+    position: absolute;  
+    overflow: auto;
+}
+
+.iconStyle {
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-msg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Jost;
+}
+
+.header-modal {
+    font-size: 2rem;
+    padding: 3rem;
+}
+
+.subtitle-modal{
+    font-size: 1.5rem;
+}
+
+.msg-final{
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+.modal-end {
+    background-color: #faf6f3;
+    border-radius: 1rem;
+    width: 34rem;
+    margin: 15rem auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+}
+
+
+.btn-next {
+    width: 20rem;
+    height: 5rem;
+    margin-top: 5rem;
+    border-radius: 1rem;
+    background: #45C352;
+    border: none;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    font-size: 1.5rem;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btn-error {
+    width: 20rem;
+    height: 5rem;
+    margin-top: 5rem;
+    border-radius: 1rem;
+    background:  #0077B6;
+    border: none;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    font-size: 1.5rem;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+    cursor: pointer;
+    
+}
